@@ -10,8 +10,8 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 cd $DIR
 
-wget https://fox-gieg.com/patches/github/n1ckfg/Pix2PixP5/data/model.zip
-unzip model.zip
-rm model.zip
+wget https://huggingface.co/modularai/stable-diffusion-1.5-onnx/resolve/main/text_encoder/model.onnx
+#unzip model.zip
+#rm model.zip
 
 

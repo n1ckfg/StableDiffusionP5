@@ -8,9 +8,7 @@ import java.nio.file.Path;
 DeepVision vision;
 StableDiffusionNetwork network;
 
-String url = "anime_style_512x512_simplified.onnx";
-//String url = "contour_style_512x512_simplified.onnx";
-//String url = "opensketch_style_512x512_simplified.onnx";
+String url = "model.onnx";
 
 void modelSetup() {
   vision = new DeepVision(this);
