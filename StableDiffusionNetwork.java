@@ -17,12 +17,12 @@ import static org.bytedeco.opencv.global.opencv_core.*;
 import static org.bytedeco.opencv.global.opencv_dnn.*;
 import static org.bytedeco.opencv.global.opencv_imgproc.*;
 
-public class InformativeDrawingsNetwork extends BaseNeuralNetwork<ImageResult> {
+public class StableDiffusionNetwork extends BaseNeuralNetwork<ImageResult> {
   private Path model;
   private Net net;
   private int dim = 256;
   
-  public InformativeDrawingsNetwork(Path model) {
+  public StableDiffusionNetwork(Path model) {
     this.model = model;
   }
 
